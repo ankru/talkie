@@ -2,10 +2,10 @@ package students;
 
 /**
  * Generates some random reply
- *
+ * 
  * @author Anna Kruglova
  */
 public interface ReplyGenerator {
 
-    String generate();
+	String generate();
 }
