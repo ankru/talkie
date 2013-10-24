@@ -1,4 +1,4 @@
-package exigen.students;
+package students;
 
 import java.io.BufferedReader;
 import java.io.IOException;

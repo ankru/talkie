@@ -1,4 +1,4 @@
-package exigen.students;
+package students;
 
 /**
  * Generates some random reply
