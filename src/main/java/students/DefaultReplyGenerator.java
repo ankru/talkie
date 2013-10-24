@@ -14,12 +14,12 @@ public class DefaultReplyGenerator implements ReplyGenerator {
     private List<String> answers = new ArrayList<String>();
     
     public DefaultReplyGenerator() {
-        answers.add("Конечно! Что за вопрос!");
-        answers.add("Хмм... ну попробуй....");
-        answers.add("Я бы не советовал, но решать тебе.");
-        answers.add("Можно, но ооочень осторожно");
-        answers.add("И думать забудь!");
-        answers.add("Ваш вопрос уже отправлен в ФСБ. Ждите, за вами выехали.");
+        answers.add(Messages.getString("DefaultReplyGenerator.answer_chaotic_good")); 
+        answers.add(Messages.getString("DefaultReplyGenerator.answer_neutral_good")); 
+        answers.add(Messages.getString("DefaultReplyGenerator.answer_true_neutral")); 
+        answers.add(Messages.getString("DefaultReplyGenerator.answer_lawful_good")); 
+        answers.add(Messages.getString("DefaultReplyGenerator.answer_lawful_evil")); 
+        answers.add(Messages.getString("DefaultReplyGenerator.answer_chaotic_evil")); 
     }
     
     @Override
